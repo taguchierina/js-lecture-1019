@@ -7,14 +7,17 @@
       // 教科書 p.96 (リスト4-9, div_change.html)
       window.onload = function(){
         // 下にコードを書く (var button = ... の行)
-
+        var button = document.getElementById("button");
         // ボタンを押した際の処理
         button.onclick = function(){
           // div要素を取得
           // 下にコードを書く
-
+          var elem = document.getElementById("sample");
           // innerHTMLプロパティに別のHTMLを指定して表示内容を変更
           // 下にコードを書く
+          var html = "今日の猫<br><img src=\"images/cat2.jpg\">";
+          elem.innerHTML = html;
+
 
         }
       }

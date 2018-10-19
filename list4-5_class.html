@@ -8,16 +8,23 @@
       window.onload = function(){
         // class1のクラスを持つ要素を取得
         // 下にコードを書く
-
+        var elems1 = document.getElementsByClassName("class1");
         // 配列内の1つ1つの要素を取り出す
         // 下にコードを書く
-
+        for(var i=0; i<elems1.length; i++){
+          var elem = elems1[i];
+          console.log(elem.textContent);
+          }
         // class2のクラスを持つ要素を取得
         // 下にコードを書く
-
+        var elems2 = document.getElementsByClassName("class2");
         // 配列内の1つ1つの要素を取り出す
         // 下にコードを書く
-      }
+        for(var i=0; i<elems2.length; i++){
+          var elem = elems2[i];
+          console.log(elem.textContent);
+        }
+      };
     </script>
   </head>
   <body>

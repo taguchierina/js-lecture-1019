@@ -8,11 +8,14 @@
       window.onload = function(){
         // 要素を取得
         // 下にコードを書く
-        
+        var elems = document.getElementsByTagName("li");
 
         // 配列内の1つ1つの要素を取り出す
         // 下にコードを書く
-        
+        for(var i=0; i<elems.length; i++){
+          var elem = elems[i];
+          console.log(elem.textContent);
+        }
       }
     </script>
   </head>

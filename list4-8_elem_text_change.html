@@ -7,15 +7,15 @@
       // 教科書 p.94 (リスト4-8, elem_text_change.html)
       window.onload = function(){
         // 下にコードを書く (var button = ... の行)
-
+        var button = document.getElementById("button");
         // ボタンを押した際の処理
         button.onclick = function(){
           // 要素を取得
           // 下にコードを書く
-
+          var elem = document.getElementById("sample");
           // テキストノードに新しい文字列を指定
           // 下にコードを書く
-
+          elem.textContent = "書き換えました";
         }
       }
     </script>

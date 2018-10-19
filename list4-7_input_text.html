@@ -8,12 +8,15 @@
     window.onload = function(){
       // 要素を取得
       // 下にコードを書く
-      
+      var input = document.getElementById("input_text");
+      console.log(input.getAttribute("value"));
+      console.log(input.value);
       // 要素のvalueを変更
       // 下にコードを書く
-      
+      input.value = "変更します";
       // 下にコードを書く (console.log...の行 2つ)
-
+      console.log(input.getAttribute("value"));
+      console.log(input.value);
     }
     </script>
   </head>
